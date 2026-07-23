@@ -4,7 +4,7 @@
 - When we open the terminal, we see a prompt like: *colt@linux:~$*
 - It shows the shell is ready for input.
 - Type commands and press **Enter**.
-- If we type something invalid: *colt@linux:~$ jakshdbd*
+- If we type something invalid: *colt@linux:~$ jakshdbd* <br>
 Result: *command not found*
 
 ### TIPS 
