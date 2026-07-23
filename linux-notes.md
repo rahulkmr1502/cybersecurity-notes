@@ -23,6 +23,6 @@ Result: *command not found*
 - *colt@linux:~$ Date* <br>
   Result: *command not found*
 
-  ## 4. Command Structure
+## 4. Command Structure
   **command -option argument**
   
