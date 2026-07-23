@@ -32,7 +32,19 @@ Result: ***command not found***
 - echo: prints argument back(echoes)
 - ***colt@linux:~$ echo mwahahahaha*** <br>
   Result: ***mwahahahaha***
-- *ncal* with arguments.
-  ***colt@linux:~$ ncal 1957*** → year
+- Pattern to remember: **command argument**
+- *ncal* with arguments. <br>
+  ***colt@linux:~$ ncal 1957*** → year <br>
   ***colt@linux:~$ ncal july 1957*** → month + year
+- *sort* uses filename as argumet <br>
+  ***colt@linux:~$ sort color.txt*** <br>
+  Result: blue <br>
+          green <br>
+          indigo <br>
+          orange <br>
+          red <br>
+          voilet <br>
+          yellow<br>
+- sort every element into alphabatical order
 
+## 6. Options
