@@ -24,5 +24,10 @@ Result: *command not found*
   Result: *command not found*
 
 ## 4. Command Structure
-  **command -option argument**
+**command -option argument**
+- Options(starts with -) modify behavior
+- Arguments are the value or items the command acts on
+
+## 5. Arguments
+- echo: prints argument back(echoes)
   
