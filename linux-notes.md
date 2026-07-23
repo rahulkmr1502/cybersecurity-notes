@@ -6,3 +6,7 @@
 - Type commands and press **Enter**.
 - If we type something invalid: *colt@linux:~$ jakshdbd*
 Result: *command not found*
+
+### TIPS 
+- Use ← and → to move cursor left or right.
+- Press ↑ to see previously entered commands.
