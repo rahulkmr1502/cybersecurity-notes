@@ -12,13 +12,17 @@ Result: *command not found*
 - Press ↑ to see previously entered commands.
 
 ## 2. Our First Command
-- Date shows current date and time.
+- Date shows current date and time. <br>
 *colt@linux:~$ date Tue 06 Oct 2021 11:11:06 AM PDT*
-- ncal→ shows calendar ("new cal").
+- ncal→ shows calendar ("new cal"). <br>
 *colt@linux:~$ ncal*
 
 ## 3. Case Matters!
 - Commands are case sensetive
 - date **≠** Date
-- *colt@linux:~$ Date*
+- *colt@linux:~$ Date* <br>
   Result: *command not found*
+
+  ## 4. Command Structure
+  ### **command -option argument**
+  
