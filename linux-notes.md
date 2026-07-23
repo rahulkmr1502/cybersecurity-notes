@@ -24,5 +24,5 @@ Result: *command not found*
   Result: *command not found*
 
   ## 4. Command Structure
-  #### **command -option argument**
+ **command -option argument**
   
