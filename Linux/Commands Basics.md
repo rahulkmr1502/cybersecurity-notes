@@ -48,3 +48,14 @@ Result: ***command not found***
 - sort every element into alphabatical order
 
 ## 6. Options
+- Options starts with a dash(-)
+- They cahnge how a command works.
+- Example: *ncal -j* (calendar with Julian day), *sort -r color.txt* (Sorts the lines of a text file in Reverse order)
+
+## 7. ncal common options
+-h turn off highlighting of today's date
+-b bold the calendar
+-B turn off bold
+-M use Monday as first day of week
+-j use Julian days (days numbered from Jan 1)
+-3 show previous, current & next month
