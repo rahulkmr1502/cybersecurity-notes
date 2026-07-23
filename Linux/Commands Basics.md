@@ -62,3 +62,12 @@ Result: ***command not found***
   #### Note:
   Case matters for options too! <br>
   *-B* **≠** *-b*
+
+## 8. Key Takeaways
+- The shell takes commands and executes them.
+- Commands can have options and argument.
+- Use arrow key to save time.
+- Learn a few basic commands first.
+- **Essential commands to know:** <br>
+pwd, ls, cd, date, ncal, echo, sort <br>
+These are the building blocks
