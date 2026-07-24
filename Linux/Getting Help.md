@@ -28,7 +28,7 @@ The only required part is ncal.
 - *[-d yyyy-mm]* -d option expects a date in the format: **yyyy -mm** (e.g., 1980-04)
 - [year] We can pass a year as a parameter.
 <br>
-**echo [OPTION]... [STRING]...** <br>
+ **echo [OPTION]... [STRING]...** <br>
 - The above synopsis is for the echo command. <br>
  It echoes text back at us. <br>
 - An ellipsis (...) indicates that one or more of the preceding operand are allowed:
