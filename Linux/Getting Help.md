@@ -44,35 +44,20 @@ The only required part is ncal.
 - SOURCE → required (source file/directory)
 - DEST → required (destination file/directory)
 
-6. Manual Sections
+## 6. Manual Sections
+The manual is broken into 8 different sections, each covering a specific topic in depth. <br>
+*1. User Commands* <br>
+*2. System Calls* <br>
+*3. C Library Functions* <br>
+*4. Special Files* <br>
+*5. File Formats* <br>
+*6. Games* <br>
+*7. Miscellaneous* <br>
+*8. System Admin Commands* <br>
 
-The manual is broken
+***$ man 1 sort***: shows section 1 (User Commands) page of sort.
 
-into 8 different sections,
-
-each covering a specific topic in depth.
-
-$ man 1 sort
-
-User Commands
-
-② System Calls
-
-C Library Functions
-
-Special Files
-
-⑤ File Formats
-
-Games
-
-Miscellaneous
-
-System Admin Commands
-
-shows section 1 (User Commands) page of sort.
-
-7. Searching the Manual
+## 7. Searching the Manual
 
 We can search for a term within the manual using the -k option.
 
