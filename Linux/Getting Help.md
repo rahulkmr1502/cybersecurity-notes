@@ -28,9 +28,9 @@ The only required part is ncal.
 - *[-d yyyy-mm]* -d option expects a date in the format: **yyyy -mm** (e.g., 1980-04)
 - [year] We can pass a year as a parameter.
 <br>
-**echo [OPTION]... [STRING]...**
+**echo [OPTION]... [STRING]...** <br>
 - The above synopsis is for the echo command. <br>
- It echoes text back at us.
+ It echoes text back at us. <br>
 - An ellipsis (...) indicates that one or more of the preceding operand are allowed:
 -- [OPTION]... we can pass more than one pa option to echo.
 -- [STRING]... we can pass multiple strings. Example: $ echo hello there you cutie little chicken pot pie
