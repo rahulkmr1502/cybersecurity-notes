@@ -13,23 +13,100 @@
 - Type **q** to exit.
 
 ## 4. Man Pages Contents (general pattern)
-- The title/name of the command with a short explanation of its purpose.
+- The **title/name** of the command with a short explanation of its purpose.
 - **Synopsis** of the command's syntax.
 - **Description** of all the command's options.
 
 ## 5. Man Pages Synopsis
-### **ncal [-31bhJeoSM] [-A number] [-B number] [-d yyyy-mm] [year]**
+**ncal [-31bhJeoSM] [-A number] [-B number] [-d yyyy-mm] [year]**
 
-Anything inside [] is OPTIONAL.
-
+- Anything inside [ ] is **OPTIONAL**. <br>
 The only required part is ncal.
+- [-31bhJeoSM] We can use these options **(-3, -1, -b, -h, -J, -e, -o, -S, -M)** without any additional parameter.
+- *[-A number]* -A option expects a number.
+- *[-B number]* -B option expects a number.
+- *[-d yyyy-mm]* -d option expects a date in the format: **yyyy -mm** (e.g., 1980-04)
+- [year] We can pass a year as a parameter.
 
-* [-31bhJeoSM] We can use these options (-3, -1, -b, -h, -J, -e, -o, -S, -M) without any additional parameter.
+## 5. man pages synopsis (cont.)
+**echo [OPTION]... [STRING]...**
+- The above synopsis is for the echo command. <>
+ It echoes text back at us.
 
-[-A number] -A option expects a number.
+An ellipsis (...) indicates that one or more of the preceding operand are allowed:
 
-[-B number] -B option expects a number.
+[OPTION]... we can pass more than one pa option to echo.
 
-[-d yyyy-mm]→ -d option expects a date in the format: yyyy -mm (e.g., 1980-04)
+[STRING]... we can pass multiple strings. Example: $ echo hello there you cutie little chicken pot pie
 
-[year] We can pass a year as a parameter.
+cp [OPTION]... SOURCE DEST
+
+Some commands require certain arguments.
+
+Required operands are NOT wrapped in [] For the cp (copy) command:
+
+→ required (source file/directory)
+
+[OPTION]... one or more options (optional)
+
+SOURCE
+
+- DEST → required (destination file/directory)
+
+6. Manual Sections
+
+The manual is broken
+
+into 8 different sections,
+
+each covering a specific topic in depth.
+
+$ man 1 sort
+
+User Commands
+
+② System Calls
+
+C Library Functions
+
+Special Files
+
+⑤ File Formats
+
+Games
+
+Miscellaneous
+
+System Admin Commands
+
+shows section 1 (User Commands) page of sort.
+
+7. Searching the Manual
+
+We can search for a term within the manual using the -k option.
+
+Example: to search for "dog"
+
+$ man -k dog
+
+rtkitetl (8) Realtime Watchdog daemon control wdctl (8) show hardware watchdog status
+
+8. Types of Commands
+
+There are really really four types of commands:
+
+1 An executable program (usually in/bin, /usr/bin,
+
+or /usr/local/bin). These are compiled binary files.
+
+2 A built-in shell command (part of the shell, e.g., bash).
+
+3 A shell function.
+
+An alias.
+
+tells us the type of a command.
+
+$ type command
+
+$ which command shows the exact location of an executable (only works for executables, not for built-ins aliases)
