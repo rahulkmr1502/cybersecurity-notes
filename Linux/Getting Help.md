@@ -36,18 +36,12 @@ The only required part is ncal.
 - *[STRING]...*: we can pass multiple strings. <br>
   Example: ***$ echo hello there you cutie little chicken pot pie***
 
-**cp [OPTION]... SOURCE DEST**
-
-Some commands require certain arguments.
-
-Required operands are NOT wrapped in [] For the cp (copy) command:
-
-→ required (source file/directory)
-
-[OPTION]... one or more options (optional)
-
-SOURCE
-
+**cp [OPTION]... SOURCE DEST** <br>
+- Some commands require certain arguments. <br>
+  Required operands are NOT wrapped in []
+- For the cp (copy) command:
+- [OPTION]... one or more options (optional)
+- SOURCE → required (source file/directory)
 - DEST → required (destination file/directory)
 
 6. Manual Sections
