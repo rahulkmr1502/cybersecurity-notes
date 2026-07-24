@@ -58,31 +58,17 @@ The manual is broken into 8 different sections, each covering a specific topic i
 ***$ man 1 sort***: shows section 1 (User Commands) page of sort.
 
 ## 7. Searching the Manual
-
-We can search for a term within the manual using the -k option.
-
-Example: to search for "dog"
-
-$ man -k dog
-
+- We can search for a term within the manual using the -k option.
+- Example: to search for "dog" <br>
+***$ man -k dog***
 rtkitetl (8) Realtime Watchdog daemon control wdctl (8) show hardware watchdog status
 
-8. Types of Commands
+## 8. Types of Commands
+- There are really really four types of commands:<br>
+1. An executable program (usually in/bin, /usr/bin, or /usr/local/bin). These are compiled binary files. <br> 
+2. A built-in shell command (part of the shell, e.g., bash). <br>
+3. A shell function. <br>
+4. An alias. <br>
 
-There are really really four types of commands:
-
-1 An executable program (usually in/bin, /usr/bin,
-
-or /usr/local/bin). These are compiled binary files.
-
-2 A built-in shell command (part of the shell, e.g., bash).
-
-3 A shell function.
-
-An alias.
-
-tells us the type of a command.
-
-$ type command
-
-$ which command shows the exact location of an executable (only works for executables, not for built-ins aliases)
+**$ type command** tells us the type of a command. <br>
+**$ which command** shows the exact location of an executable (only works for executables, not for built-ins aliases) <br>
