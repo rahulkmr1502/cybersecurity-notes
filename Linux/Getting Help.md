@@ -1,27 +1,18 @@
 ## 1. What is that?
-$ ncal -w
+**$ ncal -w**
 
-2. man pages
+## 2. man pages
+- The man pages, short for manual pages, are built-in form of documentation available on nearly all UNIX-like operating systems.
+- The specific contents vary from one operating system to another, but at a bare minimum the man man pages include information on commands and their usage.
 
-The man pages, short for manual pages, are built-in form of documentation available on nearly all UNIX-like operating systems.
-
-The specific contents vary from one operating system to another, but at a bare minimum the man man pages include information on commands and their usage.
-
-3. How to read man pages?
-
-To read the specific piece of documentation associated with a given command,
-
-run: $ man command
-
-Example: to learn more about the ncal command
-
-we could run $ man ncal
-
+## 3. How to read man pages?
+- To read the specific piece of documentation associated with a given command, <br>
+  run: $ man command <br>
+- Example: to learn more about the ncal command we could run *$ man ncal*
 This displays a bunch of information on ncal that we can scroll through.
-
 Type q to exit.
 
-4. man pages contents (general pattern)
+## 4. man pages contents (general pattern)
 
 The title/name of the command with a short explanation of its purpose.
 
@@ -29,7 +20,7 @@ Synopsis of the command's syntax.
 
 Description of all the command's options.
 
-5. man pages synopsis
+## 5. man pages synopsis
 
 ncal [-31bhJeoSM] [-A number] [-B number] [-d yyyy-mm] [year]
 
