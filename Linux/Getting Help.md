@@ -70,5 +70,5 @@ rtkitetl (8) Realtime Watchdog daemon control wdctl (8) show hardware watchdog s
 3. A shell function. <br>
 4. An alias. <br>
 
-**$ type command** tells us the type of a command. <br>
-**$ which command** shows the exact location of an executable (only works for executables, not for built-ins aliases) <br>
+**$ type command**: tells us the type of a command. <br>
+**$ which command**: shows the exact location of an executable (only works for executables, not for built-ins aliases) <br>
