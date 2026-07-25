@@ -30,4 +30,19 @@
 - -a: shows all files, including hidden files(thsoe starting with **.**)
 - We can use combine options!<br>
   Example: ls -la <br>
-  #### My favorite one is "ls -alps"
+  
+## 6. cd: Changing Directory
+  - Used to change (or "move") into another directory.
+  - ***cd <directory>*** change current directory
+  - Example: ***cd chickens*** → move into chicken directory(if it exists)
+  - Exmaple: ***cd /home/rahul*** → go to my home directory
+
+## 7. cd.. : backing up
+- In Unix-like systems:<br>
+**.** means current directory
+**..** means parent directory (one level up)
+- Use ***cd..*** to move up one level.
+
+## 8. Relative Paths
+- Paths that specify a directory/file relative to the current directory
+- Example
