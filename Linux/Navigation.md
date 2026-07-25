@@ -50,3 +50,9 @@
 - But ***cd animals*** does not work if we are in another directory(eg, ***/bin***)
 - From ***/bin***, the relative path is <br>
 ***../home/rahul/animals***
+
+## 9. Absolute Paths
+- Absolute paths starts from the root directory(they start with **/**)
+- The full location of a file/directory, no matter where we are in the system
+- Example: ***/home/rahul/animals/dogs/chickens***
+- Works from any directory
