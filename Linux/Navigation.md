@@ -10,8 +10,8 @@
 - For example, my home folder is located at ***/home/rahul***
 
 ### Just Remember
-/ means root <br>
-~ means home(current user)
+**/** means root <br>
+**~** means home(current user)
 
 ## 3. pwd: Print Working Directory
 - "Where am I?" command
@@ -56,3 +56,7 @@
 - The full location of a file/directory, no matter where we are in the system
 - Example: ***/home/rahul/animals/dogs/chickens***
 - Works from any directory
+
+### Key Idea:
+- Absolute paths are fixed 
+- Relative paths depends on where you are!
