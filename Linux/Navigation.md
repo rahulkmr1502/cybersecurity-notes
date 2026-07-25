@@ -16,20 +16,20 @@
 ## 3. pwd: Print Working Directory
 - "Where am I?" command
 - Prints the path of your current working directory starting form the root **/**
-- Example: on my desktop, ***/home/rahul/Desktop***
+- Example: on my desktop, ***$ pwd*** will show ***/home/rahul/Desktop***
 
 ## 4. ls: List Contents
 - List the content of a directory.
 - With no options or arguments → current directory
 - We can list a specific directory: ls path
-- Example: ***ls /bin*** → list contents of ***/bin***
+- Example: ***$ ls /bin*** → list contents of ***/bin***
 
 ## 5. ls Options
 - ls has many options. Two most common ones:
 - -l(lowercase L): Long list format. shows lots of info(permission, owner, size, data, etc)
 - -a: shows all files, including hidden files(thsoe starting with **.**)
 - We can use combine options!<br>
-  Example: ***ls -la*** 
+  Example: ***$ ls -la*** 
   
 ## 6. cd: Changing Directory
   - Used to change (or "move") into another directory.
@@ -45,4 +45,8 @@
 
 ## 8. Relative Paths
 - Paths that specify a directory/file relative to the current directory
-- Example
+- Example: if current directory is ***/home/rahul*** and we want to ***cd*** into animals:<br>
+    ***$ cd annimals*** works here
+- But ***cd animals*** does not work if we are in another directory(eg, ***/bin***)
+- From ***/bin***, the relative path is <br>
+***../home/rahul/animals***
