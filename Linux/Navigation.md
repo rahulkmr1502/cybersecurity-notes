@@ -29,7 +29,7 @@
 - -l(lowercase L): Long list format. shows lots of info(permission, owner, size, data, etc)
 - -a: shows all files, including hidden files(thsoe starting with **.**)
 - We can use combine options!<br>
-  Example: ls -la <br>
+  Example: ***ls -la*** 
   
 ## 6. cd: Changing Directory
   - Used to change (or "move") into another directory.
@@ -39,7 +39,7 @@
 
 ## 7. cd.. : backing up
 - In Unix-like systems:<br>
-**.** means current directory
+**.** means current directory <br>
 **..** means parent directory (one level up)
 - Use ***cd..*** to move up one level.
 
